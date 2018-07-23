@@ -1,6 +1,6 @@
 ### loach
 
-![image](https://github.com/daxingshen/imgines/blob/master/3%202.gif)
+![image](https://github.com/daxingshen/imgines/raw/master/3%202.gif)
 - loach是一个移动端爬虫，针对现下很火的短视频app—抖音
 
   1. 支持多个android设备并行自动化
