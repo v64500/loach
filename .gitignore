@@ -107,7 +107,7 @@ venv.bak/
 .idea/
 *.ipr
 *.iws
-loach/setting.py
-loach/schedule.py
-loach/instances/celeryapp.py
-loach/instances/pikaapp.py
+setting.py
+schedule.py
+celeryapp.py
+pikaapp.py
