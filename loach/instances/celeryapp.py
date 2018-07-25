@@ -32,7 +32,7 @@ from loach.model.douyinvideo import DouYinVideo
 from loach.model.douyincomment import DouComment
 from json.decoder import JSONDecodeError
 
-con = pika.BlockingConnection(pika.ConnectionParameters(host='...', port=5672, virtual_host='/', credentials=pika.PlainCredentials('', '')))
+con = pika.BlockingConnection(pika.ConnectionParameters(host='0.0.0.0', port=5672, virtual_host='/', credentials=pika.PlainCredentials('', '')))
 channel = con.channel()
 
 engine = create_engine("p")
